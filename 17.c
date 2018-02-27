@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main()
+int main()
 {int l,r,i;
 scanf("%d %d",&l,&r);
 for(i=r;i<10000;i++)
@@ -10,4 +10,5 @@ for(i=r;i<10000;i++)
 }
 }
 	printf("%d",i);
+ return 0;
 }
