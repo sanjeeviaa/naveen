@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<string.h>
-int main()
+void main()
 {
     char a[20];
     int i,l;
@@ -18,6 +18,6 @@ int main()
             a[i]=a[i]-32;
         }
     }printf("%s",a);
-    return 0;
+    
     
 }
